@@ -1,0 +1,110 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background-color: #291a2d;
+    color: #cdaa6a;
+}
+
+span.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+span.title a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#date {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.posts {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.post {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 18px;
+    border-left: solid 4px;
+    padding-left: 10px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    max-width: 500px;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    background-color: white;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: black;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.nav-arrow {
+    width: 40px;
+    height: 60px;
+    background: #333;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.nav-arrow a {
+    color: inherit;
+    background-color: inherit;
+}
+
+.nav-arrow .material-icons {
+    position: relative;
+    top: 10px;
+    font-size: 40px !important;
+}
+
+.nav-arrow:nth-of-type(2) {
+    left: auto;
+    right: 0;
+}
+
+a {
+    color: inherit;
+    background-color: inherit;
+}
