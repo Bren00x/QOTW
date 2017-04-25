@@ -79,6 +79,7 @@ var Homepage = Barba.BaseView.extend({
     },
     onLeaveCompleted: function () {
         // The Container has just been removed from the DOM.
+        ran_col();
     }
 });
 
@@ -88,4 +89,5 @@ Homepage.init();
 
 
 
-
+function openwindow(url){
+	  NewWindow=window.open(url,'newWin','width=500,height=300,left=20,top=20,toolbar=No,location=No,scrollbars=no,status=No,resizable=no,fullscreen=No');  NewWindow.focus(); void(0);  }
