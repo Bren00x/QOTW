@@ -72,7 +72,7 @@ a:visited {
  */
 
 .page {
-    padding-top: 4.5rem;
+    padding-top: 3em;
     background-color: #8aa651;
 }
 
@@ -182,7 +182,7 @@ a:visited {
 
 @media screen and (min-width: 650px) {
     .page {
-        padding-top: 6rem;
+        padding-top: 2rem;
     }
     .quote::before {
         font-size: 100px;
